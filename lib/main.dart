@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     player.play(AssetSource('note$sound_num.wav'));
   }
 
-  Expanded buildKey(sound_num, Color colors) {
+  Expanded buildKey(int sound_num, Color colors) {
     return Expanded(
       child: TextButton(
         onPressed: () {
